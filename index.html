@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shubh%wheather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>WEATHER APP</h1>
+        <div  class="tab-container">
+            <button class="tab" data-userWeather="">your weather</button>
+            <button class="tab" data-searchWeather="">search weather</button>
+        </div>
+
+        <div class="weather-container">
+
+            <!-- grant location -->
+            <div class="grantlocation">
+                <img class="img1" src="map.png" alt="map" height="80px" width="80px" loading="lazy">
+                <p>grant locatuion access</p>
+                <p>allow access to get weather information</p>
+                <button class="btn" data-grantlocation="">grant access</button>
+            </div>
+
+
+            <!-- searchWeather -->
+            <div class="search-Weather">
+                <form action="" data-searchform="">
+                    <input type="text" placeholder="search city" data-searchinput="">
+                    <!-- <button>
+                        <img  data-counrtyicon=""="" alt="" height="80px" width="80px">
+                    </button> -->
+                </form>
+            </div>
+
+
+            <!-- loading -->
+            <div class="load">
+                <img src="loading1.gif" alt="" srcset="" height="100px" width="100px">
+                <!-- <p>loading</p> -->
+            </div>
+
+
+            <!-- weather info -->
+            <div class="info">
+                <div class="location">
+                    <p data-cityname="">location</p>
+                    <img data-countryicon src="" alt="">
+                </div>
+                <div class="type">
+                    <p data-weathertype="">haze</p>
+                    <img data-weathericon src="" alt="" srcset="">
+                </div>
+                <div data-temp class="temp">00</div>
+                <div class="data">
+                    <!-- 3 cards of info -->
+                    <div class="windspeed">
+                        <img src="windspeed.png" alt="" srcset="" height="50px" width="50px">
+                        <p> wind speed</p>
+                        <p data-windspeed></p>
+                    </div>
+                    <div class="humidity">
+                        <img src="humidity.jpg" alt="" srcset="" height="50px" width="50px">
+                        <p>humidity</p>
+                        <p data-humidity=""></p>
+                    </div>
+                    <div class="clouds">
+                        <img src="cloud.jpg" alt="" srcset="" height="50px" width="50px">
+                        <p>clouds</p>
+                        <p data-clouds=""></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+

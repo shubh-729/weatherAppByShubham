@@ -1,0 +1,14 @@
+using open wheather api
+api key  
+
+
+
+html complete 
+javascript
+
+optional chaining operator
+user?.adress?.zip
+
+
+how to use google font
+all unset
